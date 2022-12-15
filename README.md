@@ -68,8 +68,6 @@ svg {
 @media screen and (max-width: 375px){
 
     .img{
-        width: 100%;
-        border-radius: 2% 2% 0 0;
         content: url("images/image-product-mobile.jpg");
     }
     
@@ -87,4 +85,4 @@ I want to learn more about responsive design because i'm still not good at it, s
 
 ## Acknowledgments
 
-Thanks to https://scrimba.com for the free courses they offer on CSS JavaScript. 
+Thanks to https://scrimba.com for the free courses they offer on CSS and JavaScript. 
