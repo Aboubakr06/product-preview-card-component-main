@@ -33,7 +33,7 @@ Users should be able to:
 
  -Desktop version
 
-![photo](./desing/desktop-design.jpg)
+![photo](./design/desktop-design.jpg)
 
 
 ### Links
