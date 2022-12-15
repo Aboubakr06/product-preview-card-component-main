@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 60ch;
     display: flex;
-    margin: 8rem auto 5rem auto;
+    margin: 8rem auto 3rem auto;
     background: hsl(0, 0%, 100%);
     border-radius: 2%;
 }
