@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: 45%;
+    max-width: 60ch;
     display: flex;
     margin: 8rem auto 5rem auto;
     background: hsl(0, 0%, 100%);
@@ -17,7 +17,7 @@ body {
 
 .img {
     width: 50%;
-    border-radius: 2% 0 0 2%;
+    border-radius: 2% 0 0 2%; 
     
 }
 .description {
@@ -89,7 +89,7 @@ a {
     color: hsl(212, 21%, 14%);;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
     .container {
         display: block;
         margin: 1rem auto;
