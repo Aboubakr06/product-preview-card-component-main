@@ -82,6 +82,12 @@ h6 {
     overflow-wrap: break-word;
 }
 
+h1,
+h2,
+h3 {
+    line-height: 1;
+}
+
 /*
   9. Create a root stacking context
 #root,
@@ -179,7 +185,6 @@ body {
     }
 
     .product__img{
-        height: 100%;
         content: url("images/image-product-desktop.jpg");
     }
     
