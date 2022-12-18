@@ -1,18 +1,19 @@
 :root {
-    --clr-primary-400:   hsl(158, 36%, 37%);
-    --clr-primary-500:   hsl(158, 36%, 20%);
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-primary-500: hsl(158, 36%, 20%);
     --clr-secondary-300: hsl(30, 38%, 92%);
 
     --clr-neutral-900: hsl(212, 21%, 14%);
     --clr-neutral-400: hsl(228, 12%, 48%);
     --clr-neutral-100: hsl(0, 0%, 100%);
-    
-    --ff-fraunces: 'Fraunces', serif;
-    --ff-base:  'Montserrat', sans-serif;
 
-    --fw-bold : 700;
-    --fw-regular : 500;
+    --ff-fraunces: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+
+    --fw-bold: 700;
+    --fw-regular: 500;
 }
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -127,7 +128,7 @@ body {
 }
 
 .product__category {
-    font-size: 0.8152rem;
+    font-size: 0.8125rem;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -137,10 +138,11 @@ body {
     font-family: var(--ff-fraunces);
     color: var(--clr-neutral-900);
 }
+
 .flex-group {
     display: flex;
     align-items: center;
-    gap: 1rem ;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -173,19 +175,20 @@ body {
     background-image: url("images/icon-cart.svg");
     width: 15px;
     height: 16px;
-  }
+}
 
 .button:is(:hover, :focus) {
     background-color: var(--clr-primary-500);
-  }
-  @media (min-width: 400px){
+}
+
+@media (min-width: 400px) {
     .product {
         --content-padding: 2rem;
         grid-template-columns: 1fr 1fr;
     }
 
-    .product__img{
+    .product__img {
         content: url("images/image-product-desktop.jpg");
     }
-    
+
 }
