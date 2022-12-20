@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  (https://github.com/Aboubakr06/product-preview-card-component-main#links)
+- Solution URL:  (https://www.frontendmentor.io/solutions/product-preview-card-component-Pd8NR2WYJB)
 - Live Site URL: (https://gentle-dolphin-f871ca.netlify.app/)
 
 ## My process
